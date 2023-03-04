@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background-color: whitesmoke;
+  font-family: monospace;
+  letter-spacing: 4px;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div .logo-text {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  padding: 20px;
+}
+.links-container {
+  margin-right: 35px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links li {
+  /* padding: 13px; */
+  margin: 15px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.nav-links li a {
+  text-decoration: none;
+  font-size: 1.9rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: black;
+}
+li a:hover {
+  color: #808080;
+}
+
+/* ABOUT PAGE */
+
+.about-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.about-cont h2 {
+  font-size: 3.2rem;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 55px;
+  text-transform: capitalize;
+}
+.about-cont p {
+  font-size: 1.7rem;
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #808080;
+}
+div .about-para {
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.img-cont {
+  width: 100%;
+}
+.img-cont img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*  MENU PAGE */
+
+.menu-list {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.menu-list div {
+  text-align: center;
+}
+.menu {
+  margin-bottom: 32px;
+}
+.menu h2 {
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+}
+.menu-list h3 {
+  margin: 25px;
+  font-size: 3rem;
+}
+.menu-list p {
+  margin: 25px;
+  color: #808080;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+main {
+  text-align: center;
+  margin-top: 45px;
+}
+
+/*  CONATC PAGE */
+
+.contact-cont {
+  font-size: 2.2rem;
+  margin-top: 32px;
+}
+div #contact-page {
+  margin-bottom: 32px;
+}
+div #contact-page a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: lighter;
+  color: black;
+}
+div .contact-text {
+  font-family: 'Times New Roman', Times, serif;
+}
+.contact-cont .contact-ad {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: darkcyan;
+}
+.form input {
+  display: inline-block;
+  font-size: 1.9rem;
+  width: 90%;
+  padding: 15px;
+  background-color: #fff8dc;
+  border: 0;
+  border-bottom: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+button {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+footer {
+  height: 300px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-top: 42px;
+}
+footer .power {
+  margin-top: 35px;
+  font-size: 2.6rem;
+}
+footer .copy {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+footer h3 {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+footer h3 a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+}
+
+/*  responsive design for 768 screen pixel and lesser */
+
+@media only screen and (max-width: 768px) {
+  .header {
+    display: block;
+  }
+  div .logo-text {
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+  }
+  .links-container {
+    display: none;
+  }
+  .form input {
+    display: inline-block;
+    font-size: 1.2rem;
+    width: 90%;
+    padding: 15px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+} ;
